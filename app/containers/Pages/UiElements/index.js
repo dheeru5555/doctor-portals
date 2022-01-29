@@ -1,0 +1,1 @@
+export UploadInputAll from './UploadInputAll';

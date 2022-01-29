@@ -1,0 +1,32 @@
+.recharts-text {
+  font-size: 11px
+}
+
+.dark-mode .recharts-text {
+  fill: #ededed;
+}
+
+.light-mode .recharts-text {
+  fill: #838383;
+}
+
+.recharts-cartesian-grid-vertical line {
+  stroke: #a3a3a3;
+}
+
+.recharts-legend-item-text {
+  font-size: 12px
+}
+
+#appointments .xAxis .recharts-cartesian-axis-ticks g:nth-child(4) tspan {
+  fill: green;
+  font-weight: 700;
+}
+
+.custom-tooltip {
+  margin: 0px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(204, 204, 204);
+  white-space: nowrap;
+}

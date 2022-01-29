@@ -1,0 +1,57 @@
+// Bitters 1.7.0
+// http://bitters.bourbon.io
+// Copyright 2013-2017 thoughtbot, inc.
+// MIT License
+
+@import "../variables";
+@import "variables";
+
+@import "buttons";
+@import "forms";
+@import "layout";
+@import "lists";
+@import "media";
+@import "tables";
+@import "typography";
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+.container {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container input {
+    display: block;
+    text-align: center;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+.stream {
+    width: 480px;
+    height: 320px;
+}
+
+a {
+    cursor: pointer
+}
+
+.MuiInputBase-root.Mui-disabled {
+    background: #00000014 !important;
+}
+
+.MuiSnackbar-root {
+    z-index: 9999999999 !important;
+}
+
+.MuiFormLabel-asterisk {
+    color: red
+}
+.MuiInputLabel-asterisk {
+    color: red
+}
+
+body {
+    text-transform: capitalize;
+}
